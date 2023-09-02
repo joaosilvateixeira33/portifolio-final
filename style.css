@@ -81,7 +81,7 @@ h2.titulo span{
 }
 
 button:hover, form .btn-enviar input:hover{
-    box-shadow: 0px 0px 0px 2px rgb(177, 176, 176);
+    box-shadow: 0px 0px 0px 2px rgb(40, 40, 40);
     transform: scale(1.05);
 }
 
@@ -100,7 +100,7 @@ button:hover, form .btn-enviar input:hover{
     height: 100vh;
     position: fixed;
     top: 0;
-    left: 100px;
+    right: 0;
     z-index: 99999;
     width: 0%;
     overflow: hidden;
@@ -147,7 +147,7 @@ button:hover, form .btn-enviar input:hover{
     height: 100%;
     position: fixed;
     top: 0;
-    left: 100px;
+    left: 0;
     z-index: 88888;
     display: none;
 }
@@ -212,7 +212,7 @@ section.especialidades .flex{
 }
 
 .especialidades .especialidades-box:hover{
-    box-shadow: 0 0 2px 2px rgb(177, 176, 176);
+    box-shadow: 0 0 0 3px rgb(44, 44, 44);
     transform: scale(1.05);
 }
 
@@ -284,6 +284,7 @@ section.portifolio .flex{
     width: 360px;
     height: 460px;
     background-color: blue;
+    border: 1px solid rgb(49, 49, 49);
     background-size: cover;
     background-position: 100% 0%;
     transition: 8s;
@@ -391,7 +392,7 @@ footer .line-footer p a{
     text-decoration: none;
 }
 
-@media screen and (max-width: 1020px){
+@media screen and (max-width: 750px){
     /* Classes Gerais */
     .flex{
         flex-direction: column-reverse;
